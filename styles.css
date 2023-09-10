@@ -411,3 +411,9 @@ main {
     display: none;
   }
 }
+
+/* Images should be 360px x 360px */
+.projectImage img {
+  height: 50%;
+  width: 50%;
+}
