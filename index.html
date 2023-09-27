@@ -137,14 +137,19 @@
         <h2 class="section__title">Projects</h2>
         <div class="projects__grid">
           <div class="project">
-            <h3>Grappling Hook Gun [WIP]</h3>
+            <h3>Grappling Hook Gun</h3>
             <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
             </iframe>
             <p class="project__description">
-              In this project, I create a grappling hook gun. 
-              The player is able to left-click and deploy the grappling hook and swing around until disengaging using the right-click. 
-              The grappling hook slowly moves the player in the direction of where the grappling hook landed.
-              Click the YouTube link to see a demo video of the gameplay (coming soon) or click the GitHub link (WIP) to view the source code.
+              In this project, I create a grappling hook gun. The player is able to press the 'E' key and deploy the grappling hook. 
+              The grappling hook moves the player in the direction of where the grappling hook landed. 
+              Once the player reaches the target position the player will fall. 
+              If the player hits an obstacle before reaching the target position the player will also fall. 
+              There is also a custom map generation script that uses a png file. 
+              This png file contains three colours, black is used to generate a floor tile and a roof tile, white is used to generate a floor tile, 
+              roof tile and wall tiles from the floor tile to roof the roof tile and lastly blue which is used to spawn the player at a particular tile, it also spawns a floor tile and a roof tile. 
+              Additionally, the player is able to sprint using shift, move around using WASD and control rotation using the arrow keys. 
+              I also added a debug mode (which can be enabled by pressing the 'F' key) to help diagnose and better visualize problems that arose during the implementation of the grappling hook gun.
             </p>
             <ul class="project__stack">
               <li class="project__stack-item">C++</li>
@@ -168,25 +173,31 @@
               <i aria-hidden="true" class="fab fa-youtube"></i>
             </a>
           </div>
+          <!-- Run Merle! Run! -->
           <div class="project">
-            <h3>[COMING SOON]</h3>
-            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+            <h3>Run Merle! Run!</h3>
+            <iframe src="https://www.youtube.com/embed/jr68QArXNGE"></iframe>
             <p class="project__description">
-              Coming soon.
+              You have played Dueling Diego. Well now here is Run Merle! Run! A fast paced endless runner filled with exciting gameplay elements such as 
+              powerups, multiple enemy types and difficulty that will get harder the further you progress. Will you just play this to refill your mana? 
+              Or will you compete to get the highest score? You decided!
+              <br><br>This is a fan made game based on the game Wizard101. When I made this I imaged this being played at the carnival just like how Dueling Diego is played.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">COMING SOON</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
             </ul>
             <a
-              href="https://github.com/amukhi123"
+              href="https://aqil-mukhi-games.itch.io/run-merle-run"
               aria-label="source code"
               class="link link--icon"
               target="_blank"
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-itch-io"></i>
             </a>
             <a
-              href="https://www.youtube.com/@AqilMukhiGames"
+              href="https://youtu.be/jr68QArXNGE"
               aria-label="youtube demo"
               class="link link--icon"
               target="_blank"
@@ -194,26 +205,266 @@
               <i aria-hidden="true" class="fab fa-youtube"></i>
             </a>
           </div>
+          <!-- The Forest -->
           <div class="project">
-            <h3>[COMING SOON]</h3>
-            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY">
-            </iframe>
+            <h3>The Forest</h3>
+            <iframe src="https://www.youtube.com/embed/CqtiT5bIvdo"></iframe>
             <p class="project__description">
-              Coming soon.
+              I showcase a short part of my game called The Forest. I have been working on my 2D art skills and I thought what better way to see how far I have come than by making a game. 
+              I used techniques such as parallax backgrounds to create depth and 2D dynamic lighting to make the game's atmosphere feel more like a horror game.
             </p>
             <ul class="project__stack">
-              <li class="project__stack-item">COMING SOON</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
             </ul>
             <a
-              href="https://github.com/amukhi123"
+              href="https://youtu.be/CqtiT5bIvdo"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <!-- Battle EXTREME -->
+          <div class="project">
+            <h3>Battle EXTREME</h3>
+            <iframe src="https://www.youtube.com/embed/CsIdAaX5sps">
+            </iframe>
+            <p class="project__description">
+              Welcome to Battle EXTREME! Enjoy a fast-paced rock, paper, scissors like game, where you are playing against an enemy AI! 
+              Do you have what it takes to beat the AI?  This game was made in two hours as part of a speed-making game challenge.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+            <a
+              href="https://aqil-mukhi-games.itch.io/battle-extreme"
               aria-label="source code"
               class="link link--icon"
               target="_blank"
             >
-              <i aria-hidden="true" class="fab fa-github"></i>
+              <i aria-hidden="true" class="fab fa-itch-io"></i>
             </a>
             <a
-              href="https://www.youtube.com/@AqilMukhiGames"
+              href="https://youtu.be/CsIdAaX5sps"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <!-- Maze Generator (Recursive Backtracking) -->
+          <div class="project">
+            <h3>Maze Generator (Recursive Backtracking)</h3>
+            <iframe src="https://www.youtube.com/embed/nyoIJMp09NM">
+            </iframe>
+            <p class="project__description">
+              This month I created a maze generator. My curiosity was peaked I started to wonder how were mazes generated? 
+              I eventually discovered some really informative resources (EasyLearnTutorial). 
+              The gist of what I read was that mazes used an algorithm called recursive backtracking in order to generate mazes. 
+              I then created a visualization of how the algorithm achieved this. Overall, I am really proud of the result.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+            <a
+              href="https://youtube.com/shorts/nyoIJMp09NM"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <!-- A* Pathfinding -->
+          <div class="project">
+            <h3>A* Pathfinding</h3>
+            <iframe src="https://www.youtube.com/embed/ZMR2ItNA8kw">
+            </iframe>
+            <p class="project__description">
+              This month I decided to explore AI pathfinding. More specifically A* Pathfinding! I create an 8x8 dungeon tileset and character to go alongside with it.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+            <a
+              href="https://youtube.com/shorts/ZMR2ItNA8kw"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <!-- Budget Craft -->
+          <div class="project">
+            <h3>Budget Craft</h3>
+            <iframe src="https://www.youtube.com/embed/BrcWXU55Hfk">
+            </iframe>
+            <p class="project__description">
+              Do you want to play Minecraft but don't have the money for Minecarft? Well then try BudgetCraft! BudgetCraft is a barebones version of 2D Minecraft that was made in 12 hours!
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+            <a
+              href="https://aqil-mukhi-games.itch.io/budgetcraft"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-itch-io"></i>
+            </a>
+            <a
+              href="https://youtu.be/BrcWXU55Hfk"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <!-- Jumpy Jack -->
+          <div class="project">
+            <h3>Jumpy Jack</h3>
+            <iframe src="https://www.youtube.com/embed/feuSBXfBBGE">
+            </iframe>
+            <p class="project__description">
+              Jumpy Jack is a action-platformer created in only one hour! Join Jack on his adventure to cross the valley of no return at night time! Jack needs your help in order to do so! 
+              <br><br>Compete for the highest score by yourself or with your friends and earn the title of the jumpiest Jack!
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+            <a
+              href="https://aqil-mukhi-games.itch.io/jumpy-jack"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-itch-io"></i>
+            </a>
+            <a
+              href="https://youtu.be/feuSBXfBBGE"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <!-- The Hidden -->
+          <div class="project">
+            <h3>The Hidden</h3>
+            <iframe src="https://www.youtube.com/embed/o6A9LLErjGI">
+            </iframe>
+            <p class="project__description">
+              Enjoy fast-paced adventure elements that require precise reactions in order to survive.
+              <br><br>The Hidden is an action-packed game with horror elements. You play as a lost-soul wandering the halls of a long-forgotten cellar.  
+              The further you wander in, the more challenges arise.
+              <br><br>With over 7 sections to play through, each with a unique twist to them and multiple collectibles to find, this adventure awaits you.
+              If you manage to make it to the end a big surprise awaits.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+            <a
+              href="https://aqil-mukhi-games.itch.io/the-hidden"
+              aria-label="source code"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-itch-io"></i>
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.AqilMukhiGames.TheHidden"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+            <i aria-hidden="true" class="fab fa-app-store"></i>
+          </a>
+            <a
+              href="https://youtu.be/o6A9LLErjGI"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <!-- Balloon Popper -->
+          <div class="project">
+            <h3>Balloon Popper</h3>
+            <iframe src="https://www.youtube.com/embed/eqV-AozTyyM">
+            </iframe>
+            <p class="project__description">
+              Balloon popper is a highly addictive 2D balloon popping game. The user's objective is to pop as many balloons as they can, before the balloon reaches the top of the screen. 
+              The simple yet attractive 2D graphics are for user's of all ages. The simple 2D graphics also help the controls to be easy to learn and appealing to the eye. 
+              Not only this but balloon poppers background music and sound effects are fun and match the games overall atmosphere.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.amgames.balloonpopper"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+            <i aria-hidden="true" class="fab fa-app-store"></i>
+          </a>
+            <a
+              href="https://youtu.be/eqV-AozTyyM"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+              <i aria-hidden="true" class="fab fa-youtube"></i>
+            </a>
+          </div>
+          <!-- Space Enemies -->
+          <div class="project">
+            <h3>Space Enemies</h3>
+            <iframe src="https://www.youtube.com/embed/wrVBTIoup9Q">
+            </iframe>
+            <p class="project__description">
+              Have you ever wanted to play a fun filled game, with simple yet eye catching graphics? Well Space Enemies is just what you are looking for. 
+              Space Enemies is a 2d top-down shooter game that provide hours of entertainment to the user. 
+              Space Enemies has a simple, yet fun concept. Kill the enemy, and try not to die in the process. Achieve high scores and tell your friends. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">Git</li>
+            </ul>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.amgames.spaceenemies&hl=en"
+              aria-label="youtube demo"
+              class="link link--icon"
+              target="_blank"
+            >
+            <i aria-hidden="true" class="fab fa-app-store"></i>
+          </a>
+            <a
+              href="https://youtu.be/wrVBTIoup9Q"
               aria-label="youtube demo"
               class="link link--icon"
               target="_blank"
@@ -223,7 +474,6 @@
           </div>
         </div>
       </section>
-
       <!-- Skills -->
       <section class="section skills" id="skills">
         <h2 class="section__title">Skills</h2>
