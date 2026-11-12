@@ -1,871 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Portfolio" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/fa62c117c7.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="styles.css" />
-    <title>Aqil Mukhi</title>
-  </head>
-  <body class="light" id="top">
-    <header class="header center">
-      <h3>
-        <a href="https://amukhi123.github.io" class="link"
-          >AM.</a
-        >
-      </h3>
-      <nav class="nav center">
-        <ul class="nav__list center">
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#companies">Companies</a>
-          </li>          
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#games">Games</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#skills">Skills</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#projects">Projects</a>
-          </li>
-          <li class="nav__list-item">
-            <a class="link link--nav" href="#contact">Contact</a>
-          </li>
-        </ul>
-        <button type="button" aria-label="toggle theme" class="btn btn--icon">
-          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
-        </button>
-        <button
-          type="button"
-          aria-label="toggle navigation"
-          class="btn btn--icon nav__hamburger"
-        >
-          <i aria-hidden="true" class="fas fa-bars"></i>
-        </button>
-      </nav>
-    </header>
-    <main>
-      <!-- About -->
-      <div class="about center">
-        <h1>Hi, I am <span class="about__name">Aqil Mukhi.</span></h1>
-        <h2 class="about__role">A Software Engineer.</h2>
-        <p class="about__desc">
-        </p>
-        <div class="about__contact center">
-          <a target="_blank" href="https://amukhi123.github.io/Resume/">
-            <span class="btn btn--outline">Resume</span>
-          </a>
-          <a
-            href="https://github.com/amukhi123"
-            aria-label="github"
-            class="link link--icon"
-            target="_blank"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
-          <a
-            href="https://linkedin.com/in/aqil-mukhi-b17940151"
-            aria-label="linkedin"
-            class="link link--icon"
-            target="_blank"
-          >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
-          <a
-            href="https://www.youtube.com/@AqilMukhiGames"
-            aria-label="linkedin"
-            class="link link--icon"
-            target="_blank"
-          >
-            <i aria-hidden="true" class="fab fa-youtube"></i>
-          </a>
-          <a
-          href="https://aqil-mukhi-games.itch.io/"
-          aria-label="linkedin"
-          class="link link--icon"
-          target="_blank"
-        >
-          <i aria-hidden="true" class="fab fa-itch-io"></i>
-        </a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="origin">
+    <title>Aqil Mukhi | Software Engineer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo theme-toggle-btn" id="themeToggleBtn">Aqil<span>Mukhi</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#companies" class="nav-link">Companies</a></li>
+                <li><a href="#software" class="nav-link">Software</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
         </div>
-      </div>
-      <!-- Companies -->
-      <section id="companies" class="section projects">
-        <h2 class="section__title">Companies I have Worked For</h2>
-        <div class="projects__grid">
-          <div class="project">
-            <div class="projectImage">
-              <a href="https://www.ea.com/" target="_blank"><img src="images/EALogo.png" alt="EA Logo"></a>
-            </div>
-            <p class="project__description"></p>
-          </div>
-          <div class="project">
-            <div class="projectImage">
-              <a href="https://www.ubisoft.com/" target="_blank"><img src="images/UbisoftLogo.png" alt="Ubisoft Logo"></a>
-            </div>
-            <p class="project__description"></p>
-          </div>
-          <div class="project">
-            <div class="projectImage">
-              <a href="https://playactivate.com/" target="_blank"><img src="images/ActivateGamesLogo.png" alt="Activate Games Logo"></a>
-            </div>
-            <p class="project__description">
-            </p>
-          </div>
-          <div class="project">
-            <div class="projectImage">
-              <a href="https://www.manitoba.ca/" target="_blank"><img src="images/GovernmentOfManitobaLogo.png" alt="Government of Manitoba Logo"></a>
-            </div>
-            <p class="project__description"></p>
-          </div>
-        </div>
-    </section>
-        <!-- Games -->
-        <section id="games" class="section projects">
-          <h2 class="section__title">Software I have Worked On</h2>
-          <div class="projects__grid">
-              <div class="project">
-                <div class="projectImage">
-                  <h3>FC 26</h3>
-                  <a href="https://www.ea.com/en/games/ea-sports-fc/fc-26" target="_blank"><img src="images/Fc26Logo.png" alt="FC 26 Logo"></a>
-                </div>
-                <p class="project__description">
-                </p>
-              </div>
-              <div class="project">
-                <div class="projectImage">
-                  <h3>FCM</h3>
-                  <a href="https://www.ea.com/games/ea-sports-fc/fc-mobile" target="_blank"><img src="images/FcmLogo.png" alt="FCM Logo"></a>
-                </div>
-                <p class="project__description">
-                </p>
-              </div>
-              <div class="project">
-                <div class="projectImage">
-                  <h3>Plants vs. Zombies: Replanted</h3>
-                  <a href="https://www.ea.com/en/games/plants-vs-zombies/plants-vs-zombies-replanted" target="_blank"><img src="images/PVZLogo.png" alt="Plants vs. Zombies: Replanted Logo"></a>
-                </div>
-                <p class="project__description">
-                </p>
-              </div>
-            <div class="project">
-              <div class="projectImage">
-                <h3>Cross-platform Client-side EA SDK</h3>
-                <a href="" target="_blank"><img src="images/Sdk.png" alt="SDK"></a>
-              </div>
-              <p class="project__description">
-              </p>
-            </div>
-            <div class="project">
-              <div class="projectImage">
-                <h3>Unannounced Ubisoft Game</h3>
-                <a href="" target="_blank"><img src="images/QuestionMark.png" alt="Question Mark"></a>
-              </div>
-              <p class="project__description">
-              </p>
-            </div>
-            <div class="project">
-              <div class="projectImage">
-                <h3>Unannounced Ubisoft Automation Software</h3>
-                <a href="" target="_blank"><img src="images/QuestionMark.png" alt="Question Mark"></a>
-              </div>
-              <p class="project__description">
-              </p>
-            </div>
-            <div class="project">
-              <div class="projectImage">
-                <h3>Laser</h3>
-                <a href="https://playactivate.com/room/laser" target="_blank"><img src="images/Laser.png" alt="Laser"></a>
-              </div>
-              <p class="project__description">
-              </p>
-            </div>
-            <div class="project">
-              <div class="projectImage">
-                <h3>Strike</h3>
-                <a href="https://playactivate.com/room/strike" target="_blank"><img src="images/Strike.png" alt="Strike"></a>
-              </div>
-              <p class="project__description">
-              </p>
-            </div>
-            <div class="project">
-              <div class="projectImage">
-                <h3>Grid</h3>
-                <a href="https://playactivate.com/room/grid" target="_blank"><img src="images/Grid.png" alt="Grid"></a>
-              </div>
-              <p class="project__description">
-              </p>
-            </div>
-            <div class="project">
-              <div class="projectImage">
-                <h3>Super Grid</h3>
-                <a href="https://playactivate.com/room/super-grid" target="_blank"><img src="images/SuperGrid.png" alt="Super Grid"></a>
-              </div>
-              <p class="project__description">
-              </p>
-            </div>
-            <div class="project">
-              <div class="projectImage">
-                <h3>Hide</h3>
-                <a href="https://playactivate.com/room/hide" target="_blank"><img src="images/Hide.png" alt="Hide"></a>
-              </div>
-              <p class="project__description">
-              </p>
-            </div>
-          </div>
-      </section>
-      <!-- Skills -->
-      <section class="section skills" id="skills">
-        <h2 class="section__title">Skills</h2>
-        <ul class="skills__list">
-          <li class="skills__list-item btn btn--plain">C++</li>
-          <li class="skills__list-item btn btn--plain">C#</li>
-          <li class="skills__list-item btn btn--plain">Unreal Engine</li>
-          <li class="skills__list-item btn btn--plain">Unity</li>
-          <li class="skills__list-item btn btn--plain">Git</li>
-          <li class="skills__list-item btn btn--plain">Perforce</li>
-          <li class="skills__list-item btn btn--plain">Visual Studio</li>
-          <li class="skills__list-item btn btn--plain">3D Math</li>
-          <li class="skills__list-item btn btn--plain">Jira</li>
-          <li class="skills__list-item btn btn--plain">Confluence</li>
-        </ul>
-      </section>
-      <!-- Projects -->
-      <section id="projects" class="section projects">
-        <h2 class="section__title">Projects</h2>
-        <div class="projects__grid">
-          <!-- Unannounced Third-Person Multiplayer Shooter -->
-          <div class="project">
-            <h3>Unannounced Third-Person Multiplayer Shooter</h3>
-            <iframe title="Stealth Takedown Video" src="https://www.youtube.com/embed/8odgHuT3Ydk">
-            </iframe>
-            <p class="project__description">
-              Uses the gameplay ability system (GAS) for abilities and replication for multiplayer.
-              Created user interfaces using Common UI.
-              Created input systems using Enhanced Input.
-              Created using C++ and Unreal Engine using Visual Studio and Git.
-              More information to come.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C++</li>
-              <li class="project__stack-item">Unreal Engine</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-          </div>
-          <!-- Stealth Takedown -->
-          <div class="project">
-            <h3>Stealth Takedown</h3>
-            <iframe title="Stealth Takedown Video" src="https://www.youtube.com/embed/8odgHuT3Ydk">
-            </iframe>
-            <p class="project__description">
-              A recreation of a stealth takedown or assassination gameplay mechanic found in games such as Assassin's Creed and Shadow of War. 
-              The player is able to walk up to an enemy and perform a takedown. 
-              A paired animation is played (for both the player and the enemy) and motion warping occurs to move the player to the appropriate position.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C++</li>
-              <li class="project__stack-item">Unreal Engine</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://github.com/amukhi123/stealth-takedown"
-              aria-label="source code"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://youtu.be/8odgHuT3Ydk"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-           <!-- Custom First-Person Character Controller -->
-           <div class="project">
-            <h3>Custom First-Person Character Controller</h3>
-            <iframe title="Custom First-Person Character Controller Video" src="https://www.youtube.com/embed/_tYSphYUr-s">
-            </iframe>
-            <p class="project__description">
-              A custom first-person character controller built in Unreal Engine 5.3 that features slope movement, dynamic footsteps, walking, looking, jumping, crouching, sprinting and head bobbing. 
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C++</li>
-              <li class="project__stack-item">Unreal Engine</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://github.com/amukhi123/custom-first-person-character-controller"
-              aria-label="source code"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://youtu.be/_tYSphYUr-s"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Grappling Hook Gun -->
-          <div class="project">
-            <h3>Grappling Hook Gun</h3>
-            <iframe title="Grappling Hook Gun Video" src="https://www.youtube.com/embed/f_KirG8yoEI">
-            </iframe>
-            <p class="project__description">
-              In this project, I created a grappling hook gun. The player is able to press the 'E' key and deploy the grappling hook. 
-              The grappling hook moves the player in the direction of where the grappling hook landed. Once the player reaches the target position the player will fall. 
-              If the player hits an obstacle before reaching the target position the player will also fall. 
-              There is also a custom map generation script that uses a PNG file. This PNG file contains three colours, black is used to generate a floor tile and a roof tile, these tiles are 
-              also spawned to every other colour, white is used to generate wall tiles from the floor to the roof and lastly blue which is used to spawn the player at a particular tile. 
-              Additionally, the player is able to sprint using shift, move around using WASD and control rotation using the arrow keys. 
-              I also added a debug mode (which can be enabled by pressing the 'F' key) to help diagnose and better visualize problems that arose during the implementation of the grappling hook gun.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C++</li>
-              <li class="project__stack-item">raylib</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://github.com/amukhi123/grappling-hook-gun"
-              aria-label="source code"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-github"></i>
-            </a>
-            <a
-              href="https://youtu.be/f_KirG8yoEI"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Run Merle! Run! -->
-          <div class="project">
-            <h3>Run Merle! Run!</h3>
-            <iframe title="Run Merle! Run! Video" src="https://www.youtube.com/embed/jr68QArXNGE"></iframe>
-            <p class="project__description">
-              You have played Dueling Diego. Well now here is Run Merle! Run! A fast-paced endless runner filled with exciting gameplay elements such as 
-              powerups, multiple enemy types and difficulty that will get harder the further you progress. Will you just play this to refill your mana? 
-              Or will you compete to get the highest score? You decided!
-              <br><br>This is a fan-made game based on the game Wizard101. When I made this I imagined this being played at the carnival just like how Dueling Diego is played.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://aqil-mukhi-games.itch.io/run-merle-run"
-              aria-label="game"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-itch-io"></i>
-            </a>
-            <a
-              href="https://youtu.be/jr68QArXNGE"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Ambush -->
-          <div class="project">
-            <h3>Ambush</h3>
-            <iframe title="Ambush Video" src="https://www.youtube.com/embed/4VksBQYbFkA"></iframe>
-            <p class="project__description">
-              In this video, I showcase a short quest and battle I made in RPG Maker MZ. I recently picked up RPG Maker and was surprised by how simple it was to create JRPGs. 
-              It took me about 3 hours to learn all I needed to know to make this short quest and battle. 
-              If I were to remake this game with the knowledge I have now I estimate it might take me around 30 minutes. 
-              Typically while developing most of my games a lot of the time goes to creating gameplay systems and assets (like music and art). 
-              It usually takes me some time to get a proper prototype going and I think since RPG Maker has all this done for you it allows you to focus on making games, 
-              which is by far the most important part.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://youtu.be/4VksBQYbFkA"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- The Forest -->
-          <div class="project">
-            <h3>The Forest</h3>
-            <iframe title="The Forest Video" src="https://www.youtube.com/embed/CqtiT5bIvdo"></iframe>
-            <p class="project__description">
-              I showcase a short part of my game called The Forest. I have been working on my 2D art skills and I thought what better way to see how far I have come than by making a game. 
-              I used techniques such as parallax backgrounds to create depth and 2D dynamic lighting to make the game's atmosphere feel more like a horror game.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://youtu.be/CqtiT5bIvdo"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Battle EXTREME -->
-          <div class="project">
-            <h3>Battle EXTREME</h3>
-            <iframe title="Battle EXTREME Video" src="https://www.youtube.com/embed/CsIdAaX5sps">
-            </iframe>
-            <p class="project__description">
-              Welcome to Battle EXTREME! Enjoy a fast-paced rock, paper, scissors like game, where you are playing against an enemy AI! 
-              Do you have what it takes to beat the AI?  This game was made in two hours as part of a speed-making game challenge.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://aqil-mukhi-games.itch.io/battle-extreme"
-              aria-label="game"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-itch-io"></i>
-            </a>
-            <a
-              href="https://youtu.be/CsIdAaX5sps"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Word Search Generator -->
-          <div class="project">
-            <h3>Word Search Generator</h3>
-            <iframe title="Word Search Generator Video" src="https://www.youtube.com/embed/v3Yf1MZSxSQ"></iframe>
-            <p class="project__description">
-              Hey there! 
+    </nav>
 
-              <br><br>This month I made a word search generator. The way it works is if the user clicks the button at the bottom a word search will be generated. 
-              <br><br>I created some pixel art to go alongside it to give it a unique look.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://youtube.com/shorts/v3Yf1MZSxSQ"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Maze Generator (Recursive Backtracking) -->
-          <div class="project">
-            <h3>Maze Generator (Recursive Backtracking)</h3>
-            <iframe title="Maze Generator (Recursive Backtracking) Video" src="https://www.youtube.com/embed/nyoIJMp09NM">
-            </iframe>
-            <p class="project__description">
-              This month I created a maze generator. My curiosity was peaked I started to wonder how were mazes generated? 
-              I eventually discovered some really informative resources (EasyLearnTutorial). 
-              The gist of what I read was that mazes used an algorithm called recursive backtracking in order to generate mazes. 
-              I then created a visualization of how the algorithm achieved this. Overall, I am really proud of the result.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://youtube.com/shorts/nyoIJMp09NM"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- A* Pathfinding -->
-          <div class="project">
-            <h3>A* Pathfinding</h3>
-            <iframe title="A* Pathfinding Video" src="https://www.youtube.com/embed/ZMR2ItNA8kw">
-            </iframe>
-            <p class="project__description">
-              This month I decided to explore AI pathfinding. More specifically A* Pathfinding! I create an 8x8 dungeon tileset and character to go alongside with it.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://youtube.com/shorts/ZMR2ItNA8kw"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Dinomon -->
-          <div class="project">
-            <h3>Dinomon</h3>
-            <iframe title="Dinomon Video" src="https://www.youtube.com/embed/GfIo-WAU1fQ"></iframe>
-            <p class="project__description">
-              I always was curious about how Pokémon created its battle systems. So I attempted to make one myself and this was the result.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://aqil-mukhi-games.itch.io/dinomon"
-              aria-label="game"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-itch-io"></i>
-            </a>
-            <a
-              href="https://youtu.be/GfIo-WAU1fQ"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- 2.5D Unity Demo -->
-          <div class="project">
-            <h3>2.5D Unity Demo</h3>
-            <iframe title="2.5D Unity Demo Video" src="https://www.youtube.com/embed/MW3FBb60S44"></iframe>
-            <p class="project__description">
-              In this video, I show you something that I have been experimenting with 2.5D! I created a scene with 2D sprites and a 3D environment. 
-              This was the first time in a while that I have worked with a 3D environment and I learned a lot throughout creating this whole project, such as creating a narrative within the scene 
-              using visual elements.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://youtu.be/MW3FBb60S44"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Budget Craft -->
-          <div class="project">
-            <h3>Budget Craft</h3>
-            <iframe title="Budget Craft Video" src="https://www.youtube.com/embed/BrcWXU55Hfk">
-            </iframe>
-            <p class="project__description">
-              Do you want to play Minecraft but don't have the money for Minecraft? Well then try BudgetCraft! BudgetCraft is a barebones version of 2D Minecraft that was made in 12 hours!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://aqil-mukhi-games.itch.io/budgetcraft"
-              aria-label="game"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-itch-io"></i>
-            </a>
-            <a
-              href="https://youtu.be/BrcWXU55Hfk"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Procedural Terrain Generation Showcase (2D Minecraft) -->
-          <div class="project">
-            <h3>Procedural Terrain Generation Showcase (2D Minecraft)</h3>
-            <iframe title="Procedural Terrain Generation Showcase (2D Minecraft) Video" src="https://www.youtube.com/embed/Ih8_mnzetO8"></iframe>
-            <p class="project__description">
-              I recently created 2D Minecraft. One of the biggest parts of creating Minecraft was generating the terrain procedurally using Perlin noise. 
-              This video showcases the final version of the terrain generation that I created. A video detailing the creation of 2D Minecraft will be coming out soon!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://youtu.be/Ih8_mnzetO8"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Turning My PC Game Into a Mobile App! -->
-          <div class="project">
-            <h3>Turning My PC Game Into a Mobile App!</h3>
-            <iframe title="Turning My PC Game Into a Mobile App! Video" src="https://www.youtube.com/embed/ZNx4EBcOkaI"></iframe>
-            <p class="project__description">
-              Hey there! In this video, I turn the game that I made for PC into a mobile app! More specifically I made it into an android app and I posted it on the Google Play Store! 
-              I take you guys through my process, step-by-step of how I made the app! Maybe iOS and Windows will be next!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://aqil-mukhi-games.itch.io/the-hidden"
-              aria-label="game"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-itch-io"></i>
-            </a>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.AqilMukhiGames.TheHidden"
-              aria-label="mobile app"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-app-store"></i>
-            </a>
-            <a
-              href="https://youtu.be/ZNx4EBcOkaI"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Jumpy Jack -->
-          <div class="project">
-            <h3>Jumpy Jack</h3>
-            <iframe title="Jumpy Jack Video" src="https://www.youtube.com/embed/feuSBXfBBGE">
-            </iframe>
-            <p class="project__description">
-              Jumpy Jack is a action-platformer created in only one hour! Join Jack on his adventure to cross the valley of no return at night time! Jack needs your help in order to do so! 
-              <br><br>Compete for the highest score by yourself or with your friends and earn the title of the jumpiest Jack!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://aqil-mukhi-games.itch.io/jumpy-jack"
-              aria-label="game"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-itch-io"></i>
-            </a>
-            <a
-              href="https://youtu.be/feuSBXfBBGE"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Unity Showcase: Normal Maps, Dynamic Lighting and More! -->
-          <div class="project">
-            <h3>Unity Showcase: Normal Maps, Dynamic Lighting and More!</h3>
-            <iframe title="Unity Showcase: Normal Maps, Dynamic Lighting and More! Video" src="https://www.youtube.com/embed/9uh4qgu-YyE">
-            </iframe>
-            <p class="project__description">
-              Hey there! In this video, I showcase some of the techniques I used in my platforming project!
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://youtu.be/9uh4qgu-YyE"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- The Hidden -->
-          <div class="project">
-            <h3>The Hidden</h3>
-            <iframe title="The Hidden Video" src="https://www.youtube.com/embed/o6A9LLErjGI">
-            </iframe>
-            <p class="project__description">
-              Enjoy fast-paced adventure elements that require precise reactions in order to survive.
-              <br><br>The Hidden is an action-packed game with horror elements. You play as a lost-soul wandering the halls of a long-forgotten cellar.  
-              The further you wander in, the more challenges arise.
-              <br><br>With over 7 sections to play through, each with a unique twist to them and multiple collectibles to find, this adventure awaits you.
-              If you manage to make it to the end a big surprise awaits.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://aqil-mukhi-games.itch.io/the-hidden"
-              aria-label="game"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-itch-io"></i>
-            </a>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.AqilMukhiGames.TheHidden"
-              aria-label="mobile app"
-              class="link link--icon"
-              target="_blank"
-            >
-            <i aria-hidden="true" class="fab fa-app-store"></i>
-          </a>
-            <a
-              href="https://youtu.be/o6A9LLErjGI"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Balloon Popper -->
-          <div class="project">
-            <h3>Balloon Popper</h3>
-            <iframe title="Balloon Popper Video" src="https://www.youtube.com/embed/eqV-AozTyyM">
-            </iframe>
-            <p class="project__description">
-              Balloon Popper is a highly addictive 2D balloon popping game. The user's objective is to pop as many balloons as they can, before the balloon reaches the top of the screen. 
-              The simple yet attractive 2D graphics are for users of all ages. The simple 2D graphics also help the controls to be easy to learn and appealing to the eye. 
-              Not only this but Balloon Popper's background music and sound effects are fun and match the games overall atmosphere.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.amgames.balloonpopper"
-              aria-label="mobile app"
-              class="link link--icon"
-              target="_blank"
-            >
-            <i aria-hidden="true" class="fab fa-app-store"></i>
-          </a>
-            <a
-              href="https://youtu.be/eqV-AozTyyM"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-          <!-- Space Enemies -->
-          <div class="project">
-            <h3>Space Enemies</h3>
-            <iframe title="Space Enemies Video" src="https://www.youtube.com/embed/wrVBTIoup9Q">
-            </iframe>
-            <p class="project__description">
-              Have you ever wanted to play a fun-filled game, with simple yet eye-catching graphics? Well Space Enemies is just what you are looking for. 
-              Space Enemies is a 2D top-down shooter game that provides hours of entertainment to the user. 
-              Space Enemies has a simple, yet fun concept. Kill the enemy, and try not to die in the process. Achieve high scores and tell your friends. 
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">Git</li>
-            </ul>
-            <a
-              href="https://play.google.com/store/apps/details?id=com.amgames.spaceenemies&hl=en"
-              aria-label="mobile app"
-              class="link link--icon"
-              target="_blank"
-            >
-            <i aria-hidden="true" class="fab fa-app-store"></i>
-          </a>
-            <a
-              href="https://youtu.be/wrVBTIoup9Q"
-              aria-label="youtube demo"
-              class="link link--icon"
-              target="_blank"
-            >
-              <i aria-hidden="true" class="fab fa-youtube"></i>
-            </a>
-          </div>
-        </div>
-      </section>
-      <!-- Contact -->
-      <section class="section contact center" id="contact">
-        <h2 class="section__title">Contact</h2>
-        <a href="mailto:aqilmukhi123@gmail.com">
-          <span class="btn btn--outline">Email me</span>
-        </a>
-      </section>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="hero-title">Aqil Mukhi</h1>
+                <h2 class="hero-subtitle">Software Engineer</h2>
+                <div class="hero-buttons">
+                    <a href="#software" class="btn btn-primary">View My Work</a>
+                    <a href="Resume/index.html" class="btn btn-resume" target="_blank" rel="noopener noreferrer">Resume</a>
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                </div>
+                <div class="hero-social-links" aria-label="Social media links">
+                    <a href="https://www.linkedin.com/in/aqil-mukhi-b17940151/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                    </a>
+                    <a href="https://github.com/amukhi123/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg class="github-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                    </a>
+                    <a href="https://aqil-mukhi-games.itch.io/" target="_blank" rel="noopener noreferrer" aria-label="itch.io">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.13 1.338C2.08 1.96.02 4.328 0 4.95v1.03c0 1.303 1.22 2.45 2.325 2.45 1.33 0 2.436-1.102 2.436-2.41 0 1.308 1.07 2.41 2.4 2.41 1.328 0 2.362-1.102 2.362-2.41 0 1.308 1.137 2.41 2.466 2.41h.024c1.33 0 2.466-1.102 2.466-2.41 0 1.308 1.034 2.41 2.363 2.41 1.33 0 2.4-1.102 2.4-2.41 0 1.308 1.106 2.41 2.435 2.41C22.78 8.43 24 7.282 24 5.98V4.95c-.02-.62-2.082-2.99-3.13-3.612-3.253-.114-5.508-.134-8.87-.133-3.362 0-7.945.053-8.87.133zm6.376 6.477a2.74 2.74 0 0 1-.468.602c-.5.49-1.19.795-1.947.795a2.786 2.786 0 0 1-1.95-.795c-.182-.178-.33-.38-.456-.595-.127.216-.303.417-.486.595a2.788 2.788 0 0 1-1.95.795c-.092 0-.187-.025-.264-.052-.107 1.113-.152 2.175-.168 2.95v.005l-.006 1.167c.02 2.334-.23 7.564 1.03 8.85 1.952.454 5.545.662 9.15.663 3.605 0 7.198-.21 9.15-.664 1.26-1.284 1.01-6.514 1.03-8.848l-.006-1.167v-.004c-.016-.776-.06-1.838-.168-2.95-.077.026-.172.05-.263.05a2.788 2.788 0 0 1-1.95-.794c-.185-.18-.36-.38-.487-.596-.126.216-.274.417-.456.595a2.786 2.786 0 0 1-1.95.795c-.758 0-1.446-.306-1.948-.795a2.74 2.74 0 0 1-.467-.602 2.738 2.738 0 0 1-.466.602 2.787 2.787 0 0 1-1.95.795h-.024a2.787 2.787 0 0 1-1.95-.795 2.738 2.738 0 0 1-.466-.602zm-2.007 2.59c.788 0 1.487 0 2.35.917h4.306c.863-.917 1.562-.917 2.35-.917.372 0 1.85 0 2.92 2.934l1.123 4.028c.832 2.995-.266 3.068-1.636 3.07-2.03-.075-3.156-1.55-3.156-3.025h-7.53c0 1.476-1.127 2.95-3.157 3.025-1.37-.002-2.468-.075-1.636-3.07l1.122-4.028c1.072-2.933 2.55-2.933 2.92-2.933zM12 12.714s-2.14 1.967-2.526 2.662l1.4-.056v1.22c0 .056.56.033 1.126.007.566.026 1.126.05 1.126-.008v-1.22l1.4.057C14.14 14.68 12 12.714 12 12.714z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Companies Section -->
+        <section class="companies section" id="companies">
+            <div class="container companies-content">
+                <h2 class="section-title">Companies I've Worked With</h2>
+                <div class="companies-grid">
+                    <a href="https://www.ea.com/" target="_blank" rel="noopener noreferrer" class="company-card">
+                        <div class="company-logo">
+                            <img src="img/EALogo.png" alt="EA Logo">
+                        </div>
+                    </a>
+                    <a href="https://www.ubisoft.com/" target="_blank" rel="noopener noreferrer" class="company-card">
+                        <div class="company-logo">
+                            <img src="img/UbisoftLogo.png" alt="Ubisoft Logo">
+                        </div>
+                    </a>
+                    <a href="https://playactivate.com/" target="_blank" rel="noopener noreferrer" class="company-card">
+                        <div class="company-logo">
+                            <img src="img/ActivateGamesLogo.png" alt="Activate Games Logo">
+                        </div>
+                    </a>
+                    <a href="https://www.manitoba.ca/" target="_blank" rel="noopener noreferrer" class="company-card">
+                        <div class="company-logo">
+                            <img src="img/GovernmentOfManitobaLogo.png" alt="Government of Manitoba Logo">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+            <!-- Software I've Worked On -->
+            <section class="software section" id="software">
+                <div class="container software-content">
+                    <h2 class="section-title">Software I've Worked On</h2>
+                    <div class="software-grid"></div>
+                    <button class="btn btn-primary load-more-btn" id="loadMoreSoftwareBtn">Load More</button>
+                    <p class="software-remaining" id="softwareRemaining">+3 more available</p>
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+        <section class="experience section" id="experience">
+            <div class="container experience-content">
+                <h2 class="section-title">Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="timeline-year">May 2024 - Present</span>
+                        <h3 class="timeline-title">Software Engineer</h3>
+                        <p class="timeline-company">Electronic Arts (EA)</p>
+                        <p class="timeline-description">Permanent Full-Time</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-year">Mar 2024 - May 2024</span>
+                        <h3 class="timeline-title">Software Developer</h3>
+                        <p class="timeline-company">Activate Games</p>
+                        <p class="timeline-description">Permanent Full-Time</p>
+                    </div>
+                    <div class="timeline-item">
+                        <span class="timeline-year">May 2022 - Aug 2022</span>
+                        <h3 class="timeline-title">Junior Tools Programmer</h3>
+                        <p class="timeline-company">Ubisoft</p>
+                        <p class="timeline-description">Co-op</p>
+                    </div>
+                    <div class="timeline-item experience-hidden" hidden>
+                        <span class="timeline-year">Sept 2021 - Dec 2021</span>
+                        <h3 class="timeline-title">Junior Programmer</h3>
+                        <p class="timeline-company">Ubisoft</p>
+                        <p class="timeline-description">Co-op</p>
+                    </div>
+                    <div class="timeline-item experience-hidden" hidden>
+                        <span class="timeline-year">Jan 2021 - Apr 2021</span>
+                        <h3 class="timeline-title">Junior Web and Application Developer</h3>
+                        <p class="timeline-company">The Government of Manitoba Business Transformation and Technology</p>
+                        <p class="timeline-description">Co-op</p>
+                    </div>
+                </div>
+                <button class="btn btn-primary load-more-btn" id="loadMoreExperienceBtn" type="button">Load More</button>
+                <p class="experience-remaining" id="experienceRemaining">+2 more available</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container skills-content">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="category-name">Languages</h3>
+                        <ul class="skill-list">
+                            <li>C++</li>
+                            <li>C#</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-name">Tools</h3>
+                        <ul class="skill-list">
+                            <li>Git</li>
+                            <li>Perforce</li>
+                            <li>Visual Studio</li>
+                            <li>Jira</li>
+                            <li>Confluence</li>
+                            <li>Jenkins</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-name">Technologies</h3>
+                        <ul class="skill-list">
+                            <li>Unreal Engine</li>
+                            <li>Unity</li>
+                            <li>3D Math</li>
+                            <li>AI-Assisted Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container projects-content">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid" id="projectsGrid"></div>
+                <button class="btn btn-primary load-more-btn" id="loadMoreBtn">Load More</button>
+                <p class="projects-remaining" id="projectsRemaining">+8 more available</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="experience section" id="education">
+            <div class="container experience-content">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="timeline-year">September 2018 - October 2023</span>
+                        <h3 class="timeline-title">Bachelor of Computer Science</h3>
+                        <p class="timeline-company">University of Manitoba</p>
+                        <p class="timeline-description">Co-op Option, Database Specialization</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+
+                <div class="contact-info">
+                    <a class="btn btn-secondary" href="mailto:aqilmukhi123@gmail.com">Email Me</a>
+                </div>
+
+            </div>
+        </section>
     </main>
+
     <footer class="footer">
-      <a
-        href=""
-        class="link footer__link"
-      >
-        I have a C++ joke...Nevermind you can't interpret it.
-      </a>
+        <div class="container footer-content">
+            <p>I have a C++ joke...Nevermind you can't interpret it.</p>
+        </div>
     </footer>
-    <div class="scroll-container">
-    <div class="scroll-top">
-      <a aria-label="Scroll up" href="#top">
-        <i aria-hidden="true" class="fas fa-arrow-up"></i>
-      </a>
-    </div>
-    </div>
-    <script src="./script.js"></script>
-  </body>
+
+    <script src="js/main.js"></script>
+</body>
 </html>
